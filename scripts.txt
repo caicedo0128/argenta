@@ -1,0 +1,20 @@
+Scripts
+=======
+
+Clientes
+
+delete from clientes_documentos where id_cliente in (3224,2947,2941);
+delete from clientes_referencias where id_cliente in (3224,2947,2941);
+delete from clientes_ref_pagador where id_cliente in (3224,2947,2941);
+delete from clientes_seguimiento where id_cliente in (3224,2947,2941);
+delete from clientes_res_facturas where id_cliente in (3224,2947,2941);
+delete from clientes_socios_accionistas where id_cliente in (3224,2947,2941);
+delete from clientes_verificaciones where id_cliente in (3224,2947,2941);
+delete from clientes_adicionales where id_cliente in (3224,2947,2941);
+
+select * from operacion where id_pagador in (3224,2947,2941)
+select * from operacion where id_emisor in (3224,2947,2941)
+delete from clientes where id_cliente in (3224,2947,2941)
+
+
+
